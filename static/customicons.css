@@ -2,6 +2,10 @@
   font-family: "customicons"; /* Project id 2878519 */
   src:url('/static/customicons.ttf') format('truetype');
 }
+/* 文字颜色 */
+.giaoText{
+	color: #0043ff;
+}
 
 .customicons {
   font-family: "customicons" !important;

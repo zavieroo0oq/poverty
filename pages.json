@@ -2,14 +2,15 @@
 	"pages": [{
 		"path": "pages/index/index",
 		"style": {
-			"navigationBarTitleText": "uni-app"
+				"navigationStyle":"custom"
 		}
-	}    ,{
-            "path" : "Setting/Setting",
+	}
+        ,{
+            "path" : "pages/Setting/Setting",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
+				"navigationStyle":"custom"
             }
             
         }
