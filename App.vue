@@ -1,8 +1,9 @@
 <script>
+	import uniIdPageInit from '@/uni_modules/uni-id-pages/init.js';
 	export default {
-		onLaunch: function() {
-			console.warn('当前组件仅支持 uni_modules 目录结构 ，请升级 HBuilderX 到 3.1.0 版本以上！')
+		onLaunch: async function() {
 			console.log('App Launch')
+			await uniIdPageInit()
 		},
 		onShow: function() {
 			console.log('App Show')
@@ -28,5 +29,11 @@
 		font-size: 14px;
 		color: #333;
 		padding: 10px;
+	}
+	.icon {
+	       width: 1em; height: 1em;
+	       vertical-align: -0.15em;
+	       fill: currentColor;
+	       overflow: hidden;
 	}
 </style>
